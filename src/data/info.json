@@ -1,0 +1,49 @@
+{
+  "name": "Sora Japanese Restaurant",
+  "tagline": "Treat Yourself to Authentic Japanese Food",
+  "about": "Welcome to Sora! We are locally owned and operated in Pisgah Forest, NC since 2006. Every one of our staff strive to offer the best authentic Japanese cuisin in a warm and inviting atmosphere perfect for every occasion. Visit us today for an amazing dining experience!",
+  "phone": "(828) 883-9808",
+  "email": "sorasushi@yahoo.com",
+  "address": {
+    "street": "91 Forest Gate Drive",
+    "city": "Pisgah Forest",
+    "state": "NC",
+    "zip": "28768"
+  },
+  "businessHours": [
+    {
+      "type": "Lunch",
+      "details": [
+        { "days": "Monday", "hours": "11:00 AM – 3:00 PM" },
+        { "days": "Tuesday", "hours": "Closed" },
+        { "days": "Wednesday – Friday", "hours": "11:00 AM – 3:00 PM" },
+        { "days": "Saturday – Sunday", "hours": "12:00 PM – 3:00 PM" }
+      ]
+    },
+    {
+      "type": "Dinner",
+      "details": [
+        { "days": "Monday", "hours": "4:30 PM – 9:00 PM" },
+        { "days": "Tuesday", "hours": "Closed" },
+        { "days": "Wednesday – Thursday", "hours": "4:30 PM – 9:00 PM" },
+        { "days": "Friday – Saturday", "hours": "4:30 PM – 9:30 PM" },
+        { "days": "Sunday", "hours": "4:30 PM – 9:00 PM" }
+      ]
+    }
+  ],
+  "socialLinks": [
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/BrevardSushi/",
+      "icon": "/images/icons/facebook_logo.svg"
+    },
+    {
+      "type": "yelp",
+      "url": "https://www.yelp.com/biz/sora-japanese-pisgah-forest?osq=Sushi+Bars",
+      "icon": "/images/icons/yelp_logo.svg"
+    }
+  ],
+  "orderOnlineUrl": "https://order.spoton.com/wcs-sora-restaurant-13027/pisgah-forest-nc/6410ba509397be003c0a232e",
+  "giftCardUrl": "https://sorarestaurant.shop.securetree.com/egift-card",
+  "googleMapsEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2!2d-73.9!3d40.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM!5e0!3m2!1sen!2sus!4v1234567890"
+}

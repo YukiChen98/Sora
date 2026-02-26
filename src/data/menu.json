@@ -1,0 +1,178 @@
+{
+  "categories": [
+    {
+      "id": "starters",
+      "name": "Starters",
+      "items": [
+        {
+          "id": "bruschetta",
+          "name": "Bruschetta al Pomodoro",
+          "description": "Grilled sourdough topped with vine-ripened tomatoes, fresh basil, and aged balsamic glaze",
+          "price": 9.99,
+          "dietary": ["vegetarian", "vegan"],
+          "spicy": false
+        },
+        {
+          "id": "calamari",
+          "name": "Crispy Calamari",
+          "description": "Lightly breaded squid rings served with marinara sauce and lemon aioli",
+          "price": 13.99,
+          "dietary": [],
+          "spicy": false
+        },
+        {
+          "id": "soup",
+          "name": "French Onion Soup",
+          "description": "Slow-cooked caramelized onions in rich beef broth, topped with gruyère crouton",
+          "price": 10.99,
+          "dietary": [],
+          "spicy": false
+        },
+        {
+          "id": "salad",
+          "name": "Caesar Salad",
+          "description": "Crisp romaine, house-made dressing, parmesan crisp, and house-baked croutons",
+          "price": 11.99,
+          "dietary": ["vegetarian"],
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": "Main Courses",
+      "items": [
+        {
+          "id": "salmon",
+          "name": "Pan-Seared Atlantic Salmon",
+          "description": "Fresh salmon fillet with lemon-caper butter, seasonal vegetables, and roasted fingerling potatoes",
+          "price": 26.99,
+          "dietary": ["gluten-free"],
+          "spicy": false
+        },
+        {
+          "id": "ribeye",
+          "name": "12 oz Dry-Aged Ribeye",
+          "description": "USDA prime ribeye with truffle butter, crispy shallots, and choice of sides",
+          "price": 44.99,
+          "dietary": ["gluten-free"],
+          "spicy": false
+        },
+        {
+          "id": "pasta",
+          "name": "Tagliatelle Bolognese",
+          "description": "Hand-rolled egg pasta with slow-braised beef and pork ragù, aged parmesan",
+          "price": 21.99,
+          "dietary": [],
+          "spicy": false
+        },
+        {
+          "id": "chicken",
+          "name": "Herb Roasted Chicken",
+          "description": "Free-range half chicken with rosemary jus, wilted greens, and whipped parsnip",
+          "price": 23.99,
+          "dietary": ["gluten-free"],
+          "spicy": false
+        },
+        {
+          "id": "mushroom-risotto",
+          "name": "Wild Mushroom Risotto",
+          "description": "Arborio rice with porcini, shiitake, and cremini mushrooms, finished with truffle oil and parmesan",
+          "price": 19.99,
+          "dietary": ["vegetarian", "gluten-free"],
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "items": [
+        {
+          "id": "fries",
+          "name": "Truffle Parmesan Fries",
+          "description": "Hand-cut fries tossed in truffle oil and aged parmesan",
+          "price": 7.99,
+          "dietary": ["vegetarian"],
+          "spicy": false
+        },
+        {
+          "id": "greens",
+          "name": "Sautéed Seasonal Greens",
+          "description": "Chef's selection of market greens with garlic and lemon",
+          "price": 6.99,
+          "dietary": ["vegetarian", "vegan", "gluten-free"],
+          "spicy": false
+        },
+        {
+          "id": "potatoes",
+          "name": "Roasted Rosemary Potatoes",
+          "description": "Crispy baby potatoes with rosemary, thyme, and sea salt",
+          "price": 6.99,
+          "dietary": ["vegetarian", "vegan", "gluten-free"],
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        {
+          "id": "chocolate-cake",
+          "name": "Warm Chocolate Fondant",
+          "description": "Rich dark chocolate lava cake with vanilla bean ice cream and salted caramel",
+          "price": 10.99,
+          "dietary": ["vegetarian"],
+          "spicy": false
+        },
+        {
+          "id": "cheesecake",
+          "name": "New York Cheesecake",
+          "description": "Classic baked cheesecake with seasonal berry compote and fresh cream",
+          "price": 9.99,
+          "dietary": ["vegetarian"],
+          "spicy": false
+        },
+        {
+          "id": "tiramisu",
+          "name": "Tiramisu",
+          "description": "Traditional Italian dessert with espresso-soaked ladyfingers and mascarpone",
+          "price": 9.99,
+          "dietary": ["vegetarian"],
+          "spicy": false
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "items": [
+        {
+          "id": "lemonade",
+          "name": "House Lemonade",
+          "description": "Fresh-squeezed lemonade with mint and a hint of lavender",
+          "price": 4.99,
+          "dietary": ["vegetarian", "vegan", "gluten-free"],
+          "spicy": false
+        },
+        {
+          "id": "iced-tea",
+          "name": "Peach Iced Tea",
+          "description": "House-brewed black tea with fresh peach syrup and lemon",
+          "price": 4.99,
+          "dietary": ["vegetarian", "vegan", "gluten-free"],
+          "spicy": false
+        },
+        {
+          "id": "sparkling-water",
+          "name": "Sparkling Water",
+          "description": "Chilled sparkling mineral water",
+          "price": 3.99,
+          "dietary": ["vegetarian", "vegan", "gluten-free"],
+          "spicy": false
+        }
+      ]
+    }
+  ]
+}
