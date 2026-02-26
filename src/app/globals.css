@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* =============================================
+   BRAND COLORS — Update these to match your brand
+   ============================================= */
+:root {
+  --color-brand: #92400e;        /* Main brand/accent color (amber-brown) */
+  --color-brand-dark: #78350f;   /* Darker variant for hover states */
+  --color-brand-light: #fef3c7;  /* Light tint for backgrounds */
+  --color-warm-white: #fdf8f0;   /* Warm off-white page background */
+  --color-warm-gray: #78716c;    /* Muted text color */
+  --color-border: #e7e5e4;       /* Subtle border color */
+}
+
+@theme inline {
+  --color-brand: var(--color-brand);
+  --color-brand-dark: var(--color-brand-dark);
+  --color-brand-light: var(--color-brand-light);
+  --color-warm-white: var(--color-warm-white);
+  --color-warm-gray: var(--color-warm-gray);
+  --color-border: var(--color-border);
+  --font-sans: var(--font-geist-sans);
+}
+
+body {
+  background-color: var(--color-warm-white);
+  color: #1c1917;
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default list styles in nav */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
