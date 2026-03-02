@@ -1,9 +1,16 @@
 import menuData from "@/data/menu.json";
+import CategoryNav from "@/components/CategoryNav";
 
+// Maps dietary tag keys to their badge color classes
 const dietaryColors: Record<string, string> = {
   vegetarian: "bg-green-100 text-green-800",
   vegan: "bg-emerald-100 text-emerald-800",
   "gluten-free": "bg-yellow-100 text-yellow-800",
+};
+
+// Maps advisory tag keys to their display labels
+const advisoryLabels: Record<string, string> = {
+  "raw seafood": "🐟 Raw Seafood",
 };
 
 export const metadata = {
@@ -12,39 +19,25 @@ export const metadata = {
 
 export default function MenuPage() {
   return (
-    <div className="bg-warm-white min-h-screen">
-      {/* Page Header */}
-      <div className="bg-stone-900 text-white py-16 text-center">
-        <h1 className="text-4xl font-bold mb-2">Our Menu</h1>
-        <div className="w-12 h-0.5 bg-amber-500 mx-auto mt-4" />
-      </div>
+    <div className="bg-white min-h-screen">
+      <CategoryNav categories={menuData.categories} />
 
-      {/* Sticky Category Navigation */}
-      <nav className="sticky top-16 z-40 bg-white border-b border-stone-200 shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 overflow-x-auto">
-          <ul className="flex gap-1 py-2 min-w-max">
-            {menuData.categories.map((cat) => (
-              <li key={cat.id}>
-                <a
-                  href={`#${cat.id}`}
-                  className="px-4 py-2 text-sm font-medium text-stone-600 hover:text-amber-700 hover:bg-amber-50 rounded-full transition-colors whitespace-nowrap"
-                >
-                  {cat.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
-
-      {/* Menu Categories */}
+      {/* Menu sections */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
         {menuData.categories.map((category) => (
-          <section key={category.id} id={category.id} className="scroll-mt-28">
-            <div className="flex items-center gap-4 mb-8">
-              <h2 className="text-2xl font-bold text-stone-900">{category.name}</h2>
-              <div className="flex-1 h-px bg-stone-200" />
+          // scroll-mt-48 offsets the sticky header + category nav so the section
+          // heading lands just below the nav bar when jumped to via anchor link
+          <section key={category.id} id={category.id} className="scroll-mt-48">
+            <div className="mb-8">
+              <div className="flex items-center gap-4">
+                <h2 className="text-2xl font-bold text-ink">{category.name}</h2>
+                <div className="flex-1 h-px bg-stone-200" />
+              </div>
+              {category.description && (
+                <p className="text-sm text-ink-muted mt-1">{category.description}</p>
+              )}
             </div>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {category.items.map((item) => (
                 <div
@@ -53,15 +46,21 @@ export default function MenuPage() {
                 >
                   <div className="flex justify-between items-start gap-3">
                     <div className="flex-1">
+                      {/* Item name + advisory tags (e.g. raw seafood) */}
                       <div className="flex items-center gap-2 flex-wrap">
-                        <h3 className="font-semibold text-stone-900 text-base">{item.name}</h3>
-                        {item.spicy && (
-                          <span className="text-red-500 text-xs font-medium">🌶 Spicy</span>
-                        )}
+                        <h3 className="font-semibold text-ink text-base">{item.name}</h3>
+                        {item.advisory.map((tag) => (
+                          <span key={tag} className="text-blue-600 text-xs font-medium">
+                            {advisoryLabels[tag] ?? tag}
+                          </span>
+                        ))}
                       </div>
-                      <p className="text-stone-500 text-sm mt-1 leading-relaxed">
+
+                      <p className="text-ink-muted text-sm mt-1 leading-relaxed">
                         {item.description}
                       </p>
+
+                      {/* Dietary badges (vegetarian, vegan, gluten-free, etc.) */}
                       {item.dietary.length > 0 && (
                         <div className="flex flex-wrap gap-1.5 mt-2">
                           {item.dietary.map((tag) => (
@@ -77,7 +76,8 @@ export default function MenuPage() {
                         </div>
                       )}
                     </div>
-                    <span className="text-amber-700 font-bold text-base whitespace-nowrap">
+
+                    <span className="text-btn font-bold text-base whitespace-nowrap">
                       ${item.price.toFixed(2)}
                     </span>
                   </div>
@@ -88,11 +88,14 @@ export default function MenuPage() {
         ))}
       </div>
 
-      {/* Dietary Legend */}
+      {/* Legend */}
       <div className="bg-stone-50 border-t border-stone-100 py-8">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs text-stone-400 text-center">
-            <span className="font-medium text-stone-500">Dietary tags: </span>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-1">
+          <p className="text-xs text-ink-muted text-center">
+            <span className="font-medium text-blue-600">🐟 Raw Seafood: </span>
+            Consuming raw or undercooked seafood or shellfish may increase your risk of foodborne illness.
+          </p>
+          <p className="text-xs text-ink-muted text-center">
             Please inform your server of any allergies or dietary restrictions. We do our best to accommodate all needs.
           </p>
         </div>

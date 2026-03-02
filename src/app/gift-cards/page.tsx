@@ -40,7 +40,7 @@ export default function GiftCardsPage() {
         <div className="max-w-xl mx-auto px-6">
           <div className="text-5xl mb-4">🎁</div>
           <h1 className="text-4xl font-bold mb-3">Gift Cards</h1>
-          <p className="text-stone-200 text-lg mb-8">
+          <p className="text-white/70 text-lg mb-8">
             Share the gift of a great meal. Perfect for any occasion — birthdays,
             anniversaries, and everything in between.
           </p>
@@ -48,7 +48,7 @@ export default function GiftCardsPage() {
             href={info.giftCardUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-amber-700 hover:bg-amber-600 text-white font-semibold px-10 py-4 rounded-full text-lg transition-colors shadow-lg"
+            className="inline-block bg-btn hover:bg-btn-hover text-white font-semibold px-10 py-4 rounded-full text-lg transition-colors shadow-lg"
           >
             Purchase a Gift Card
           </a>
@@ -58,7 +58,7 @@ export default function GiftCardsPage() {
       {/* How it works */}
       <section className="py-16 bg-stone-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-stone-900 text-center mb-10">How It Works</h2>
+          <h2 className="text-2xl font-bold text-ink text-center mb-10">How It Works</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
             {[
               {
@@ -80,11 +80,11 @@ export default function GiftCardsPage() {
               },
             ].map((item) => (
               <div key={item.step} className="flex flex-col items-center">
-                <div className="w-12 h-12 rounded-full bg-amber-700 text-white font-bold text-lg flex items-center justify-center mb-4 shadow-md">
+                <div className="w-12 h-12 rounded-full bg-btn text-white font-bold text-lg flex items-center justify-center mb-4 shadow-md">
                   {item.step}
                 </div>
-                <h3 className="font-semibold text-stone-900 mb-2">{item.title}</h3>
-                <p className="text-stone-500 text-sm">{item.description}</p>
+                <h3 className="font-semibold text-ink mb-2">{item.title}</h3>
+                <p className="text-ink-muted text-sm">{item.description}</p>
               </div>
             ))}
           </div>
@@ -97,7 +97,7 @@ export default function GiftCardsPage() {
           href={info.giftCardUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-amber-700 hover:bg-amber-600 text-white font-semibold px-10 py-4 rounded-full text-lg transition-colors shadow"
+          className="inline-block bg-btn hover:bg-btn-hover text-white font-semibold px-10 py-4 rounded-full text-lg transition-colors shadow"
         >
           Purchase a Gift Card →
         </a>
@@ -106,27 +106,27 @@ export default function GiftCardsPage() {
       {/* FAQ */}
       <section className="py-16 bg-stone-50 border-t border-stone-100">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-stone-900 text-center mb-8">
+          <h2 className="text-2xl font-bold text-ink text-center mb-8">
             Frequently Asked Questions
           </h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <div key={faq.q} className="bg-white rounded-xl p-6 border border-stone-100 shadow-sm">
-                <h3 className="font-semibold text-stone-900 mb-2">{faq.q}</h3>
-                <p className="text-stone-500 text-sm">{faq.a}</p>
+                <h3 className="font-semibold text-ink mb-2">{faq.q}</h3>
+                <p className="text-ink-muted text-sm">{faq.a}</p>
               </div>
             ))}
           </div>
-          <p className="text-center text-stone-400 text-sm mt-8">
+          <p className="text-center text-ink-muted text-sm mt-8">
             Have more questions?{" "}
             <a
               href={`mailto:${info.email}`}
-              className="text-amber-700 hover:underline"
+              className="text-accent hover:underline"
             >
               Contact us
             </a>{" "}
             or call{" "}
-            <a href={`tel:${info.phone}`} className="text-amber-700 hover:underline">
+            <a href={`tel:${info.phone}`} className="text-accent hover:underline">
               {info.phone}
             </a>
           </p>

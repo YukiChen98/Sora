@@ -17,16 +17,11 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="bg-stone-900 text-white sticky top-0 z-50 shadow-md">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo / Restaurant Name */}
-          <Link
-            href="/"
-            className="text-xl font-bold tracking-wide text-amber-400 hover:text-amber-300 transition-colors"
-          >
-            {info.name}
-          </Link>
+    <header className="bg-surface text-ink sticky top-0 z-50 shadow-md">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-35">
+          {/* Logo */}
+          <img src={info.logo} alt={info.name} className="h-35 w-auto" />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
@@ -34,8 +29,8 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-amber-400 ${
-                  pathname === link.href ? "text-amber-400" : "text-stone-300"
+                className={`text-lg font-medium transition-colors hover:text-accent ${
+                  pathname === link.href ? "text-accent" : "text-ink"
                 }`}
               >
                 {link.label}
@@ -45,7 +40,7 @@ export default function Header() {
               href={info.orderOnlineUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-2 bg-amber-700 hover:bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-full transition-colors"
+              className="ml-2 bg-btn hover:bg-btn-hover text-white text-lg font-medium px-4 py-2 rounded-full transition-colors"
             >
               Order Online
             </a>
@@ -54,7 +49,7 @@ export default function Header() {
           {/* Mobile hamburger button */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="md:hidden p-2 rounded-md text-stone-300 hover:text-white hover:bg-stone-800 transition-colors"
+            className="md:hidden p-2 rounded-md text-ink hover:text-accent hover:bg-ink/10 transition-colors"
             aria-label="Toggle navigation menu"
             aria-expanded={mobileOpen}
           >
@@ -74,15 +69,15 @@ export default function Header() {
 
         {/* Mobile dropdown menu */}
         {mobileOpen && (
-          <nav className="md:hidden pb-4 border-t border-stone-800 mt-0 pt-3">
+          <nav className="md:hidden pb-4 border-t border-ink/20 mt-0 pt-3">
             <ul className="flex flex-col gap-1">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
                     onClick={() => setMobileOpen(false)}
-                    className={`block px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-stone-800 hover:text-amber-400 ${
-                      pathname === link.href ? "text-amber-400" : "text-stone-300"
+                    className={`block px-3 py-2 rounded-md text-lg font-medium transition-colors hover:bg-ink/10 hover:text-accent ${
+                      pathname === link.href ? "text-accent" : "text-ink"
                     }`}
                   >
                     {link.label}
@@ -94,7 +89,7 @@ export default function Header() {
                   href={info.orderOnlineUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-center bg-amber-700 hover:bg-amber-600 text-white text-sm font-semibold px-4 py-2 rounded-full transition-colors"
+                  className="block text-center bg-btn hover:bg-btn-hover text-white text-lg font-semibold px-4 py-2 rounded-full transition-colors"
                 >
                   Order Online
                 </a>
