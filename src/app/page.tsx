@@ -24,7 +24,7 @@ export default function HomePage() {
               href={info.orderOnlineUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-amber-700 hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-full text-lg transition-colors shadow-lg"
+              className="bg-btn hover:bg-btn-hover text-white font-semibold px-8 py-3 rounded-full text-lg transition-colors shadow-lg"
             >
               Order Online
             </a>
@@ -42,9 +42,9 @@ export default function HomePage() {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-stone-900 mb-4">Welcome</h2>
-            <div className="w-12 h-0.5 bg-amber-700 mx-auto mb-6" />
-            <p className="text-stone-600 text-lg leading-relaxed">{info.about}</p>
+            <h2 className="text-3xl font-bold text-ink mb-4">Welcome</h2>
+            <div className="w-12 h-0.5 bg-btn mx-auto mb-6" />
+            <p className="text-ink-muted text-lg leading-relaxed">{info.about}</p>
           </div>
         </div>
       </section>
@@ -53,40 +53,10 @@ export default function HomePage() {
       <section className="py-20 bg-stone-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-stone-900 mb-2">Find Us</h2>
-            <div className="w-12 h-0.5 bg-amber-700 mx-auto" />
+            <h2 className="text-3xl font-bold text-ink mb-2">Find Us</h2>
+            <div className="w-12 h-0.5 bg-btn mx-auto" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-            {/* Hours
-            <div className="bg-white rounded-2xl shadow-sm p-8 border border-stone-100">
-              <h3 className="text-xl font-semibold text-stone-900 mb-5">Hours</h3>
-              <ul className="space-y-3">
-                {info.hours.map((entry) => (
-                  <li
-                    key={entry.days}
-                    className="flex justify-between text-stone-600 pb-3 border-b border-stone-100 last:border-0 last:pb-0"
-                  >
-                    <span className="font-medium text-stone-800">{entry.days}</span>
-                    <span>{entry.hours}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-6 pt-5 border-t border-stone-100 space-y-1 text-stone-600 text-sm">
-                <p className="font-medium text-stone-800">{info.address.street}</p>
-                <p>
-                  {info.address.city}, {info.address.state} {info.address.zip}
-                </p>
-                <p className="mt-2">
-                  <a
-                    href={`tel:${info.phone}`}
-                    className="text-amber-700 hover:text-amber-600 transition-colors"
-                  >
-                    {info.phone}
-                  </a>
-                </p>
-              </div>
-            </div>
-            */}
             
             {/* Map */}
             <div className="rounded-2xl overflow-hidden shadow-sm border border-stone-100 h-80 md:h-full min-h-64">
@@ -106,10 +76,10 @@ export default function HomePage() {
       </section>
 
       {/* CTA Banner */}
-      <section className="py-16 bg-amber-700 text-white text-center">
+      <section className="py-16 bg-btn text-white text-center">
         <div className="max-w-xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-3">Ready to dine?</h2>
-          <p className="text-amber-100 mb-8 text-lg">
+          <p className="text-white/80 mb-8 text-lg">
             Reserve a table or order your favorite dishes for pickup and delivery.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -117,7 +87,7 @@ export default function HomePage() {
               href={info.orderOnlineUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-amber-800 hover:bg-amber-50 font-semibold px-8 py-3 rounded-full text-lg transition-colors shadow"
+              className="bg-white text-btn hover:bg-white/90 font-semibold px-8 py-3 rounded-full text-lg transition-colors shadow"
             >
               Order Online
             </a>

@@ -9,10 +9,10 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Page Header */}
-      <div className="bg-stone-900 text-white py-16 text-center">
+      <div className="bg-surface text-ink py-16 text-center">
         <h1 className="text-4xl font-bold mb-2">Gallery</h1>
-        <p className="text-stone-400 mt-3 text-lg">A glimpse into our dining experience</p>
-        <div className="w-12 h-0.5 bg-amber-500 mx-auto mt-4" />
+        <p className="text-ink-muted mt-3 text-lg">A glimpse into our dining experience</p>
+        <div className="w-12 h-0.5 bg-btn mx-auto mt-4" />
       </div>
 
       {/* Gallery Grid */}
@@ -20,7 +20,7 @@ export default function GalleryPage() {
         <GalleryClient images={galleryData.images} />
 
         {/* Replace images note */}
-        <p className="text-center text-stone-400 text-xs mt-8">
+        <p className="text-center text-ink-muted text-xs mt-8">
           To add your own photos, place images in{" "}
           <code className="bg-stone-100 px-1 py-0.5 rounded text-stone-500">public/images/gallery/</code>{" "}
           and update{" "}

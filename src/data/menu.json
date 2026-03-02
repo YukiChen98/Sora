@@ -1,176 +1,2173 @@
 {
   "categories": [
     {
-      "id": "starters",
-      "name": "Starters",
+      "id": "soups",
+      "name": "Soups",
+      "description": "",
       "items": [
         {
-          "id": "bruschetta",
-          "name": "Bruschetta al Pomodoro",
-          "description": "Grilled sourdough topped with vine-ripened tomatoes, fresh basil, and aged balsamic glaze",
-          "price": 9.99,
-          "dietary": ["vegetarian", "vegan"],
-          "spicy": false
-        },
-        {
-          "id": "calamari",
-          "name": "Crispy Calamari",
-          "description": "Lightly breaded squid rings served with marinara sauce and lemon aioli",
-          "price": 13.99,
+          "id": "miso-soup-sm-2",
+          "name": "Miso Soup (small)",
+          "description": "Seaweed, bean curd, scallion with soybean paste",
+          "price": 3.1,
           "dietary": [],
-          "spicy": false
+          "advisory": []
         },
         {
-          "id": "soup",
-          "name": "French Onion Soup",
-          "description": "Slow-cooked caramelized onions in rich beef broth, topped with gruyère crouton",
-          "price": 10.99,
+          "id": "miso-soup-lg-1",
+          "name": "Miso Soup (large)",
+          "description": "Seaweed, bean curd, scallion with soybean paste",
+          "price": 10,
           "dietary": [],
-          "spicy": false
+          "advisory": []
         },
         {
-          "id": "salad",
-          "name": "Caesar Salad",
-          "description": "Crisp romaine, house-made dressing, parmesan crisp, and house-baked croutons",
-          "price": 11.99,
-          "dietary": ["vegetarian"],
-          "spicy": false
+          "id": "dumpling-soup-0",
+          "name": "Dumpling Soup",
+          "description": "Japanese chicken dumpling & mushroom in clear soup",
+          "price": 6.25,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "seafood-soup-3",
+          "name": "Seafood Soup",
+          "description": "Assorted seafood in hearty vegetable broth",
+          "price": 8.3,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "tom-kah-soup-4",
+          "name": "Tom Kah Soup",
+          "description": "Thai style coconut flavored soup w/ shrimp and vegetables",
+          "price": 7.25,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "tom-yum-soup-5",
+          "name": "Tom Yum Soup",
+          "description": "Thai style hot & sour soup with shrimp, pepper, onion, and basil",
+          "price": 7.25,
+          "dietary": [],
+          "advisory": []
         }
       ]
     },
     {
-      "id": "mains",
-      "name": "Main Courses",
+      "id": "salads",
+      "name": "Salads",
+      "description": "",
       "items": [
         {
-          "id": "salmon",
-          "name": "Pan-Seared Atlantic Salmon",
-          "description": "Fresh salmon fillet with lemon-caper butter, seasonal vegetables, and roasted fingerling potatoes",
-          "price": 26.99,
-          "dietary": ["gluten-free"],
-          "spicy": false
+          "id": "green-salad-0",
+          "name": "Green Salad",
+          "description": "",
+          "price": 4.15,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
         },
         {
-          "id": "ribeye",
-          "name": "12 oz Dry-Aged Ribeye",
-          "description": "USDA prime ribeye with truffle butter, crispy shallots, and choice of sides",
-          "price": 44.99,
-          "dietary": ["gluten-free"],
-          "spicy": false
+          "id": "seaweed-salad-1",
+          "name": "Seaweed Salad",
+          "description": "",
+          "price": 6.25,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
         },
         {
-          "id": "pasta",
-          "name": "Tagliatelle Bolognese",
-          "description": "Hand-rolled egg pasta with slow-braised beef and pork ragù, aged parmesan",
-          "price": 21.99,
+          "id": "spicy-crab-salad-sm-3",
+          "name": "Spicy Crab Salad (small)",
+          "description": "",
+          "price": 7.3,
           "dietary": [],
-          "spicy": false
+          "advisory": []
         },
         {
-          "id": "chicken",
-          "name": "Herb Roasted Chicken",
-          "description": "Free-range half chicken with rosemary jus, wilted greens, and whipped parsnip",
-          "price": 23.99,
-          "dietary": ["gluten-free"],
-          "spicy": false
+          "id": "spicy-crab-salad-lg-2",
+          "name": "Spicy Crab Salad (large)",
+          "description": "",
+          "price": 14,
+          "dietary": [],
+          "advisory": []
         },
         {
-          "id": "mushroom-risotto",
-          "name": "Wild Mushroom Risotto",
-          "description": "Arborio rice with porcini, shiitake, and cremini mushrooms, finished with truffle oil and parmesan",
-          "price": 19.99,
-          "dietary": ["vegetarian", "gluten-free"],
-          "spicy": false
+          "id": "kani-cucumber-salad-4",
+          "name": "Kani Cucumber Salad",
+          "description": "",
+          "price": 9,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "squid-salad-5",
+          "name": "Squid Salad",
+          "description": "",
+          "price": 8.3,
+          "dietary": [],
+          "advisory": []
         }
       ]
     },
     {
-      "id": "sides",
-      "name": "Sides",
+      "id": "hot-appetizers",
+      "name": "Hot Appetizers",
+      "description": "",
       "items": [
         {
-          "id": "fries",
-          "name": "Truffle Parmesan Fries",
-          "description": "Hand-cut fries tossed in truffle oil and aged parmesan",
-          "price": 7.99,
-          "dietary": ["vegetarian"],
-          "spicy": false
+          "id": "agedashi-tofu-0",
+          "name": "Agedashi Tofu",
+          "description": "Fried tofu with sweet chili sauce",
+          "price": 7.3,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
         },
         {
-          "id": "greens",
-          "name": "Sautéed Seasonal Greens",
-          "description": "Chef's selection of market greens with garlic and lemon",
-          "price": 6.99,
-          "dietary": ["vegetarian", "vegan", "gluten-free"],
-          "spicy": false
+          "id": "edamame-1",
+          "name": "Edamame",
+          "description": "Steamed soybean topped with flaked salt",
+          "price": 7.3,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
         },
         {
-          "id": "potatoes",
-          "name": "Roasted Rosemary Potatoes",
-          "description": "Crispy baby potatoes with rosemary, thyme, and sea salt",
-          "price": 6.99,
-          "dietary": ["vegetarian", "vegan", "gluten-free"],
-          "spicy": false
+          "id": "gyoza-2",
+          "name": "Gyoza",
+          "description": "Pan fried or steamed dumpling with choice of pork, shrimp or vegetable",
+          "price": 7.3,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "hamachi-kama-3",
+          "name": "Hamachi Kama",
+          "description": "Grilled yellowtail cheek with ponzu sauce",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "harumaki-4",
+          "name": "Harumaki",
+          "description": "Japanese spring roll with choice of vegetable or pork",
+          "price": 5.2,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "oyster-fry-5",
+          "name": "Oyster Fry",
+          "description": "",
+          "price": 12.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "rock-shrimp-6",
+          "name": "Rock Shrimp",
+          "description": "Battered and fried rock shrimp in a mild spicy creamy sauce",
+          "price": 11.45,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "shrimp-tempura-app-7",
+          "name": "Shrimp Tempura",
+          "description": "Battered and fried shrimp (3) & vegetables",
+          "price": 12.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "shumai-8",
+          "name": "Shumai",
+          "description": "Steamed pork or shrimp dumpling",
+          "price": 7.3,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "soft-shell-crab-9",
+          "name": "Soft Shell Crab",
+          "description": "Deep fried soft shell crab with ponzu sauce",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "vegetable-tempura-app-10",
+          "name": "Vegetable Tempura",
+          "description": "Battered and fried vegetables",
+          "price": 9,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "yakitori-11",
+          "name": "Yakitori",
+          "description": "Grilled chicken chunks on a skewer",
+          "price": 8.3,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "cold-appetizers",
+      "name": "Cold Appetizers",
+      "description": "",
+      "items": [
+        {
+          "id": "pumpkin-tempura-0",
+          "name": "Pumpkin Tempura",
+          "description": "Baked marinated baby octopus served with eel sauce and fish eggs",
+          "price": 9,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "bonsai-1",
+          "name": "Bonsai",
+          "description": "Crab, avocado, mango, cream cheese, wrapped in cucumber and served with sweet chili sauce on side",
+          "price": 11.45,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "dancing-girl-2",
+          "name": "Dancing Girl",
+          "description": "Fresh marinated white tuna, cilantro, sesame paste, jalapeno in soy paper with wasabi mayo",
+          "price": 11.45,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "dinosaur-eggs-3",
+          "name": "Dinosaur Eggs",
+          "description": "",
+          "price": 13,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "golden-leaf-4",
+          "name": "Golden Leaf",
+          "description": "White fish, crab, mango, cream cheese and avocado roll served deep fried; topped with sweet chili and eel sauce",
+          "price": 11.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "white-tuna-tataki-5",
+          "name": "White Tuna Tataki",
+          "description": "Seared white tuna topped with ponzu",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "jalapeno-yellowtail-6",
+          "name": "Jalapeno Yellowtail",
+          "description": "Yellowtail wrapped with jalapeno",
+          "price": 16,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "mussel-dynamite-7",
+          "name": "Mussel Dynamite",
+          "description": "Mussels, Spicy",
+          "price": 11,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "red-mist-8",
+          "name": "Red Mist",
+          "description": "Deep fried seaweed, cream cheese, crab meat, smoked salmon, served w/creamy sauce and a fish egg",
+          "price": 10.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "salmon-tataki-9",
+          "name": "Salmon Tataki",
+          "description": "Sliced salmon with ponzu sauce",
+          "price": 12,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "seafood-salad-10",
+          "name": "Seafood Salad",
+          "description": "Fresh tuna, salmon, imitation crab, mango and cucumber",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "spring-breeze-11",
+          "name": "Spring Breeze",
+          "description": "Crab, shrimp, asparagus, fresh mango, rice noodle in rice paper wrap",
+          "price": 11.45,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "sunomono-12",
+          "name": "Sunomono",
+          "description": "Variety of raw fish served in ponzu sauce",
+          "price": 13,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "treasure-island-13",
+          "name": "Treasure Island",
+          "description": "Mixed fish, shrimp, crab meat, cucumber and seaweed salad with creamy sauce, crunchy topped",
+          "price": 13.52,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "tuna-tataki-14",
+          "name": "Tuna Tataki",
+          "description": "Seared tuna with ponzu sauce",
+          "price": 12,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "tuna-twist-15",
+          "name": "Tuna Twist",
+          "description": "Spicy tuna rolled in avocado and topped with wasabi chili, eel sauce and tobiko",
+          "price": 12,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "water-fall-16",
+          "name": "Water Fall",
+          "description": "Tuna, avocado, cilantro and peanut over sushi rice and topped with sweet chili sauce",
+          "price": 16.5,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "lunch-bento-box",
+      "name": "Lunch Bento Box",
+      "description": "Combination Lunch Box with California Roll or Spring Roll, Bean Sprout Salad, Pork Dumpling and a Choice of:",
+      "items": [
+        {
+          "id": "l-beef-teriyaki-0",
+          "name": "Beef Teriyaki",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-chicken-tempura-1",
+          "name": "Chicken Tempura",
+          "description": "",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-chicken-teriyaki-2",
+          "name": "Chicken Teriyaki",
+          "description": "",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-chicken-katsu-3",
+          "name": "Chicken Katsu",
+          "description": "",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-fish-katsu-4",
+          "name": "Fish Katsu",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-salmon-teriyaki-5",
+          "name": "Salmon Teriyaki",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-scallop-teriyaki-6",
+          "name": "Scallop Teriyaki",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-shrimp-tempura-7",
+          "name": "Shrimp Tempura",
+          "description": "",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-shrimp-teriyaki-8",
+          "name": "Shrimp Teriyaki",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-tofu-teriyaki-9",
+          "name": "Tofu Teriyaki",
+          "description": "",
+          "price": 12.5,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "l-vegetable-tempura-10",
+          "name": "Vegetable Tempura",
+          "description": "",
+          "price": 12.5,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "hibachi-grill-lunch",
+      "name": "Hibachi Grill Lunch",
+      "description": "All lunch served with mixed vegetable, white/brown/fried rice, and a choice of:",
+      "items": [
+        {
+          "id": "l-hibachi-chicken-0",
+          "name": "Chicken",
+          "description": "",
+          "price": 12.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-hibachi-salmon-1",
+          "name": "Salmon",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-hibachi-shrimp-2",
+          "name": "Shrimp",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-hibachi-steak-3",
+          "name": "Steak",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-hibachi-vegetable-4",
+          "name": "Vegetable",
+          "description": "",
+          "price": 12.5,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "sushi-lunch-special",
+      "name": "Sushi Lunch Special",
+      "description": "",
+      "items": [
+        {
+          "id": "sushi-lunch-0",
+          "name": "Sushi Lunch",
+          "description": "4 pcs. of sushi and California roll",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "sashimi-lunch-1",
+          "name": "Sashimi Lunch",
+          "description": "9 pcs. of sashimi with rice",
+          "price": 15,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "rolls-lunch-special",
+      "name": "Rolls Lunch Special",
+      "description": "",
+      "items": [
+        {
+          "id": "lunch-choose-2-roll-special-0",
+          "name": "Choose 2 Rolls Special",
+          "description": "Choice of Any 2 Sushi Rolls, Chef's Special Rolls excluded.",
+          "price": 11.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "lunch-choose-3-roll-special-1",
+          "name": "Choose 3 Rolls Special",
+          "description": "Choice of Any 3 Sushi Rolls, Chef's Special Rolls excluded.",
+          "price": 16.1,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "thai-curry-lunch-special",
+      "name": "Thai Curry Lunch Special",
+      "description": "All curry served with white or brown rice. Choice of curry: Red, Green, Panang, Masaman. Cooked with green & red pepper, zucchini, basil, coconut milk and choice of protein: ",
+      "items": [
+        {
+          "id": "l-thai-curry-beef-0",
+          "name": "Beef",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-thai-curry-chicken-1",
+          "name": "Chicken",
+          "description": "",
+          "price": 12.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-thai-curry-shrimp-2",
+          "name": "Shrimp",
+          "description": "",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "l-thai-curry-tofu-3",
+          "name": "Tofu",
+          "description": "",
+          "price": 12.5,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "chef-s-signature-entrees",
+      "name": "Chef's Signature Entrees",
+      "description": "",
+      "items": [
+        {
+          "id": "king-of-the-sea-0",
+          "name": "King of the Sea",
+          "description": "Grilled lobster tail, scallop & shrimp with lemon butter sauce",
+          "price": 34.3,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "teriyaki",
+      "name": "Teriyaki",
+      "description": "Served with white or brown Rice.",
+      "items": [
+        {
+          "id": "d-chicken-teriyaki-0",
+          "name": "Chicken Teriyaki",
+          "description": "",
+          "price": 18.75,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-salmon-teriyaki-1",
+          "name": "Salmon Teriyaki",
+          "description": "",
+          "price": 26,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-scallop-teriyaki-2",
+          "name": "Scallop Teriyaki",
+          "description": "",
+          "price": 25,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-shrimp-teriyaki-3",
+          "name": "Shrimp Teriyaki",
+          "description": "",
+          "price": 22.9,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-steak-teriyaki-4",
+          "name": "Steak Teriyaki",
+          "description": "",
+          "price": 26,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-tofu-teriyaki-5",
+          "name": "Tofu Teriyaki",
+          "description": "",
+          "price": 16.65,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "tempura-katsu",
+      "name": "Tempura & Katsu",
+      "description": "Served with white or brown rice.",
+      "items": [
+        {
+          "id": "chicken-tempura-0",
+          "name": "Chicken Tempura",
+          "description": "Battered and fried chicken and vegetables",
+          "price": 19.75,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "shrimp-tempura-1",
+          "name": "Shrimp Tempura",
+          "description": "Battered and fried shrimp and vegetables",
+          "price": 23,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "vegetable-tempura-2",
+          "name": "Vegetable Tempura",
+          "description": "Battered and fried assorted vegetables",
+          "price": 15.6,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "chicken-katsu-3",
+          "name": "Chicken Katsu",
+          "description": "Breaded and fried chicken with special sauce",
+          "price": 21,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "fish-katsu-4",
+          "name": "Fish Katsu",
+          "description": "Breaded and fried red snapper with special sauce",
+          "price": 23,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "dinner-bento",
+      "name": "Dinner Bento",
+      "description": "Combination Dinner Box, Served with white or brown rice.",
+      "items": [
+        {
+          "id": "dinner-bento-a-0",
+          "name": "Dinner Bento A",
+          "description": "Chicken teriyaki, shrimp tempura, steamed shrimp dumpling, and a california roll",
+          "price": 28,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "dinner-bento-b-1",
+          "name": "Dinner Bento B",
+          "description": "Shrimp teriyaki, chicken yakitori, steamed shrimp dumpling and a california roll",
+          "price": 28,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "dinner-bento-c-2",
+          "name": "Dinner Bento C",
+          "description": "Steak teriyaki, scallop teriyaki, steamed shrimp dumpling, and a california roll",
+          "price": 32,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "dinner-bento-d-3",
+          "name": "Dinner Bento D",
+          "description": "Vegetable tempura, tofu teriyaki, steamed vegetable dumpling, and a cucumber & avocado roll",
+          "price": 24,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "noodles-fried-rice",
+      "name": "Noodles & Fried Rice",
+      "description": "",
+      "items": [
+        {
+          "id": "tempura-udon-soba-0",
+          "name": "Tempura Udon or Soba",
+          "description": "Noodle soup with shrimp and vegetable tempura",
+          "price": 17.31,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "yaki-udon-soba-1",
+          "name": "Yaki Soba",
+          "description": "Pan fried noodle with choice of chicken/beef/shrimp & vegetables",
+          "price": 17.31,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "beef-fried-rice-0",
+          "name": "Beef Fried Rice",
+          "description": "",
+          "price": 16.22,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "chicken-fried-rice-1",
+          "name": "Chicken Fried Rice",
+          "description": "",
+          "price": 15.13,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "house-fried-rice-2",
+          "name": "House Fried Rice",
+          "description": "",
+          "price": 23.4,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "shrimp-fried-rice-3",
+          "name": "Shrimp Fried Rice",
+          "description": "",
+          "price": 16.22,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "vegetable-fried-rice-6",
+          "name": "Vegetable Fried Rice",
+          "description": "",
+          "price": 13,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "entrees-from-sushi-bar",
+      "name": "Entrees from Sushi Bar",
+      "description": "",
+      "items": [
+        {
+          "id": "chirashi-0",
+          "name": "Chirashi",
+          "description": "",
+          "price": 26,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sushi-deluxe-1",
+          "name": "Sushi Deluxe",
+          "description": "7 pcs. of assorted raw fish on flavored rice and tuna roll",
+          "price": 25,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sashimi-deluxe-2",
+          "name": "Sashimi Deluxe",
+          "description": "12 pcs. of assorted sliced fresh fish with white rice",
+          "price": 29.1,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sushi-sashimi-combo-3",
+          "name": "Sushi & Sashimi Combination",
+          "description": "4 pcs sushi, 9 pcs sashimi and a shrimp tempura roll",
+          "price": 32.25,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sushi-for-2-4",
+          "name": "Sushi for 2",
+          "description": "10 pcs sushi nigiri and spider roll, Godzilla roll, spicy scallop roll and eel avocado roll",
+          "price": 57.2,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sushi-for-3-5",
+          "name": "Sushi for 3",
+          "description": "14 pcs sushi nigiri and spider roll, Godzilla roll, superman roll, California roll, Alaska roll and spicy tuna roll",
+          "price": 79,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sushi-for-4-6",
+          "name": "Sushi for 4",
+          "description": "",
+          "price": 102.95,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "rolls-lover-for-2-7",
+          "name": "Rolls Lover For 2",
+          "description": "2 Godzilla roll, 2 shrimp tempura roll, yellowtail roll and California roll",
+          "price": 57.2,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "rolls-lover-for-3-8",
+          "name": "Rolls Lover For 3",
+          "description": "2 Godzilla roll, 2 shrimp tempura roll, 2 spicy scallop roll, superman roll and sweetheart roll",
+          "price": 79,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "rolls-lover-for-4-9",
+          "name": "Rolls Lover For 4",
+          "description": "",
+          "price": 98.79,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": [
+            "raw seafood"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegetarian-rolls",
+      "name": "Vegetarian Rolls",
+      "description": "",
+      "items": [
+        {
+          "id": "avocado-and-cucumber-roll-0",
+          "name": "Avocado and Cucumber Roll",
+          "description": "",
+          "price": 5.7,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "avocado-roll-1",
+          "name": "Avocado Roll",
+          "description": "",
+          "price": 4.95,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "cucumber-roll-2",
+          "name": "Cucumber Roll",
+          "description": "",
+          "price": 4.7,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "inari-avocado-roll-3",
+          "name": "Inari Avocado Roll",
+          "description": "",
+          "price": 5.7,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "mushroom-with-cream-cheese-roll-4",
+          "name": "Mushroom With Cream Cheese Roll",
+          "description": "",
+          "price": 5.45,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "tempura-sweet-potato-roll-5",
+          "name": "Tempura Sweet Potato Roll",
+          "description": "",
+          "price": 5.45,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "tempura-asparagus-roll-6",
+          "name": "Tempura Asparagus Roll",
+          "description": "",
+          "price": 5.45,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "veggie-lover-roll-7",
+          "name": "Veggie Lover Roll",
+          "description": "",
+          "price": 9,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "sushi-sashimi",
+      "name": "Sushi & Sashimi",
+      "description": "Sushi 1pc per order, sashimi 2pcs per order with some exceptions.",
+      "items": [
+        {
+          "id": "albacore-tuna-0",
+          "name": "Albacore Tuna",
+          "description": "",
+          "price": 4.35,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "bean-curd-1",
+          "name": "Bean Curd",
+          "description": "",
+          "price": 2.85,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "crab-2",
+          "name": "Crab",
+
+          "description": "",
+          "price": 3.65,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "eel-3",
+          "name": "Eel",
+          "description": "",
+          "price": 4.5,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "flying-fish-roe-4",
+          "name": "Flying Fish Roe",
+          "description": "",
+          "price": 3.65,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "mackerel-5",
+          "name": "Mackerel",
+          "description": "",
+          "price": 4.35,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "octopus-6",
+          "name": "Octopus",
+          "description": "",
+          "price": 4.95,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "quail-egg-7",
+          "name": "Quail Egg",
+          "description": "",
+          "price": 1.8,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "red-clam-8",
+          "name": "Red Clam",
+          "description": "",
+          "price": 3.25,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "red-snapper-9",
+          "name": "Red Snapper",
+          "description": "",
+          "price": 3.65,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "salmon-10",
+          "name": "Salmon",
+          "description": "",
+          "price": 4.75,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "salmon-roe-11",
+          "name": "Salmon Roe",
+          "description": "",
+          "price": 4.4,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "scallop-12",
+          "name": "Scallop",
+          "description": "",
+          "price": 4.95,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "shrimp-13",
+          "name": "Shrimp",
+          "description": "",
+          "price": 3.9,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "smoked-salmon-14",
+          "name": "Smoked Salmon",
+          "description": "",
+          "price": 4.95,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "squid-15",
+          "name": "Squid",
+          "description": "",
+          "price": 4.5,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sweet-shrimp-16",
+          "name": "Sweet Shrimp",
+          "description": "",
+          "price": 5,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "tuna-17",
+          "name": "Tuna",
+          "description": "",
+          "price": 4.95,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "wasabi-tobiko-18",
+          "name": "Wasabi Tobiko",
+          "description": "",
+          "price": 4.5,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "white-tuna-19",
+          "name": "White Tuna",
+          "description": "",
+          "price": 4.35,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "yellowtail-20",
+          "name": "Yellowtail",
+          "description": "",
+          "price": 4.95,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roll-hand-rolls",
+      "name": "Roll & Hand Rolls",
+      "description": "",
+      "items": [
+        {
+          "id": "alaska-roll-0",
+          "name": "Alaska Roll",
+          "description": "Salmon and avocado",
+          "price": 7,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "boston-roll-1",
+          "name": "Boston Roll",
+          "description": "",
+          "price": 7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "california-roll-2",
+          "name": "California Roll",
+          "description": "Crab, avocado, cucumber",
+          "price": 5.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "eel-avocado-roll-3",
+          "name": "Eel Avocado Roll",
+          "description": "",
+          "price": 6.75,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "philadelphia-roll-4",
+          "name": "Philadelphia Roll",
+          "description": "Smoked salmon and cream cheese",
+          "price": 7.3,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "kani-roll-5",
+          "name": "Kani Roll",
+          "description": "",
+          "price": 4.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "salmon-roll-6",
+          "name": "Salmon Roll",
+          "description": "",
+          "price": 6.5,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "salmon-skin-roll-7",
+          "name": "Salmon Skin Roll",
+          "description": "",
+          "price": 5.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "spicy-crab-roll-8",
+          "name": "Spicy Crab Roll",
+          "description": "",
+          "price": 6.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "spicy-salmon-roll-9",
+          "name": "Spicy Salmon Roll",
+          "description": "",
+          "price": 6.5,
+          "dietary": [],
+          "advisory": ["raw seafood"]
+        },
+        {
+          "id": "spicy-scallop-scallion-roll-10",
+          "name": "Spicy Scallop & Scallion Roll",
+          "description": "",
+          "price": 7,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "spicy-tuna-roll-11",
+          "name": "Spicy Tuna Roll",
+          "description": "",
+          "price": 6.75,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "spicy-yellowtail-scallion-roll-12",
+          "name": "Spicy Yellowtail & Scallion Roll",
+          "description": "",
+          "price": 7,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "tuna-avocado-roll-13",
+          "name": "Tuna Avocado Roll",
+          "description": "",
+          "price": 6.75,
+          "dietary": [],
+          "advisory": ["raw seafood"]
+        },
+        {
+          "id": "tuna-roll-14",
+          "name": "Tuna Roll",
+          "description": "",
+          "price": 6.75,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chef-s-special-rolls",
+      "name": "Chef's Special Rolls",
+      "description": "",
+      "items": [
+        {
+          "id": "amazing-roll-0",
+          "name": "Amazing Roll",
+          "description": "Tempura lobster tail, spicy tuna & avocado wrapped in soy paper, topped with shrimp sauce and eel sauce",
+          "price": 20.3,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "autumn-fall-roll-1",
+          "name": "Autumn Fall Roll",
+          "description": "Fried soft shell crab, eel, cucumber & seaweed salad wrapped in soy paper, topped with spicy eel sauce & crunch",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "blue-ridge-roll-2",
+          "name": "Blue Ridge Roll",
+          "description": "Spicy scallop and cucumber roll topped with crab meat served sweet chili sauce",
+          "price": 15.6,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "bamboo-roll-3",
+          "name": "Bamboo Roll",
+          "description": "Lobster Salad and Cucumber roll, Sliced Avocado & Fish Egg Topped, Served Wasabi Mayo Sauce",
+          "price": 17,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "crab-lover-roll-4",
+          "name": "Crab Lover Roll",
+          "description": "Spicy crab and avocado roll topped with crab, served with sweet chili and eel sauce",
+          "price": 14.05,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "dragon-roll-5",
+          "name": "Dragon Roll",
+          "description": "Eel and cucumber roll topped with avocado",
+          "price": 14.05,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "dream-lover-roll-6",
+          "name": "Dream Lover Roll",
+          "description": "Tempura lobster tail, mango, cream cheese, avocado, and cilantro roll wrapped in soy paper, topped with eel wasabi chili sauce and wasabi fish egg on top",
+          "price": 20.3,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "eternity-roll-7",
+          "name": "Eternity Roll",
+          "description": "Crab, cream cheese, mango, fish eggs, and cilantro roll wrapped in soy paper and topped with shrimp sauce",
+          "price": 15.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "fancy-salmon-roll-8",
+          "name": "Fancy Salmon Roll",
+          "description": "Baked salmon, cream cheese, cilantro rolled in soy paper and tempura fried",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "fire-ball-roll-9",
+          "name": "Fire Ball Roll",
+          "description": "Fried roll with smoked salmon, cream cheese and avocado in soy paper; topped with fish egg, served shrimp sauce & spicy eel sauce",
+          "price": 16.65,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "geisha-roll-10",
+          "name": "Geisha Roll",
+          "description": "Spicy crab roll topped with seared peppered tuna, avocado and tobiko",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "godzilla-roll-11",
+          "name": "Godzilla Roll",
+          "description": "Spicy tuna and scallion roll, deep fried and topped with special sauce",
+          "price": 13,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "green-monster-roll-12",
+          "name": "Green Monster Roll",
+          "description": "2 piece shrimp tempura, cream cheese, layered with lobster salad and avocado, topped with eel sauce and sweet chili sauce",
+          "price": 18.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "green-river-roll-13",
+          "name": "Green River Roll",
+          "description": "Eel, wakame, spicy lobster, jalapeno roll topped with chef sauce",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "harvest-roll-14",
+          "name": "Harvest Roll",
+          "description": "Spicy Lobster Salad cucumber topped with salmon and avocado,served wasabi chili sauce",
+          "price": 17.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "high-fall-roll-15",
+          "name": "High Fall Roll",
+          "description": "Fried roll with spicy lobster salad, mango & jalapeno rolled in soy paper; served with cilantro, ground peanuts and eel sauce",
+          "price": 18.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "honey-fire-roll-16",
+          "name": "Honey Fire Roll",
+          "description": "Spicy white tuna, scallions,  and tobiko roll, topped with seared tuna and avocado with chefs sauce",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "hot-2-in-1-17",
+          "name": "Hot 2 in 1",
+          "description": "Spicy salmon and mango inside,spicy tuna spicy Mayo & crunch on top",
+          "price": 15.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "monster-mash-roll-18",
+          "name": "Monster Mash Roll",
+          "description": "Tempura pumpkin and cream cheese inside, topped with salmon avocado served sweet wasabi and eel sauce, garnished with ground pistachio",
+          "price": 16,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "mountain-roll-19",
+          "name": "Mountain Roll",
+          "description": "Spicy salmon and avocado roll topped with white tuna and sweet chili sauce",
+          "price": 16.65,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "golden-age-roll-20",
+          "name": "Golden Age Roll",
+          "description": "Deep Fried Japanese pumpkin, Spicy Salmon, Mango, Cream Cheese Soypaper Wrapped With Wasabi Chili Sauce",
+          "price": 17,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "orange-sake-21",
+          "name": "Orange Sake",
+          "description": "Spicy salmon and mango inside,topped with torched salmon, served chefÃ¢â‚¬â„¢s sauce",
+          "price": 16.1,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "oscar-roll-22",
+          "name": "Oscar Roll",
+          "description": "Spicy tuna and mango inside with fresh salmon topped in spicy mayo and crunch.",
+          "price": 16.1,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "paradise-roll-23",
+          "name": "Paradise Roll",
+          "description": "Tempura shrimp, banana and lobster salad rolled in soy paper and topped with mango sauce",
+          "price": 14.05,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "peace-roll-24",
+          "name": "Peace Roll",
+          "description": "Fried eel and asparagus roll topped with yellowtail, fish eggs and sweet chili sauce",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "perfect-match-roll-25",
+          "name": "Perfect Match Roll",
+          "description": "Lobster salad and mango roll topped with white tuna and avocado",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "phoenix-roll-26",
+          "name": "Phoenix Roll",
+          "description": "",
+          "price": 17.65,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "pink-lady-roll-27",
+          "name": "Pink Lady Roll",
+          "description": "Two piece tempura shrimp, mango, lobster salad, and cream cheese wrapped in soy paper",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "rainbow-roll-28",
+          "name": "Rainbow Roll",
+          "description": "Crab and avocado roll, topped with tuna, salmon, white fish",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "red-river-roll-29",
+          "name": "Red River Roll",
+          "description": "2pcs temp shrimp, cucumber with soy paper wrapped, topped spicy tuna served with eel sauce",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "sakura-roll-30",
+          "name": "Sakura Roll",
+          "description": "Fried chicken and mango roll topped with lobster salad, sweet chili and eel sauce",
+          "price": 16.1,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "samurai-roll-31",
+          "name": "Samurai Roll",
+          "description": "Tri-color fish, jalapeno, cilantro and avocado rolled in kelp seaweed",
+          "price": 18.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "sapphire-roll-32",
+          "name": "Sapphire Roll",
+          "description": "Spicy crab, mango, with tuna, salmon, avocado, tobiko",
+          "price": 16.65,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "scorpion-roll-33",
+          "name": "Scorpion Roll",
+          "description": "2 PCs shrimp tempura cucumber and spicy tuna with soy paper wrapped,topped with avocado and served ginger dressing and eel sauce",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "shrimp-tempura-roll-34",
+          "name": "Shrimp Tempura Roll",
+          "description": "Fried shrimp, lettuce, avocado, tobiko",
+          "price": 9.35,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "spicy-lobster-roll-35",
+          "name": "Spicy Lobster Roll",
+          "description": "Spicy lobster, crunchy flakes, cilantro, tobiko",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "spider-roll-36",
+          "name": "Spider Roll",
+          "description": "Soft shell crab, avocado, lettuce, tobiko",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "spiderweb-roll-37",
+          "name": "Spiderweb Roll",
+          "description": "Fried soft shell crab and mango roll, topped with spicy tuna, tobiko and scallion",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "splendid-roll-38",
+          "name": "Splendid Roll",
+          "description": "2 piece shrimp tempura and mango inside, topped with tuna, avocado and with honey fire sauce",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "summer-roll-39",
+          "name": "Summer Roll",
+          "description": "Salmon, crab, avocado, and tobiko wrapped in cucumber sheet",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sumo-roll-40",
+          "name": "Sumo Roll",
+          "description": "White tuna, salmon, crab, cilantro, jalapeno, and tempura fried",
+          "price": 15.1,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "sunburst-roll-41",
+          "name": "Sunburst Roll",
+          "description": "Spicy tuna, avocado, mango wrapped in soy paper",
+          "price": 15.1,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sunflower-roll-42",
+          "name": "Sunflower Roll",
+          "description": "Spicy crab inside, topped with boiled shrimp and avocado",
+          "price": 15.1,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "superman-roll-43",
+          "name": "Superman Roll",
+          "description": "Shrimp tempura, cream cheese, spicy crab, topped with chef sauce",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "sushi-sandwich-salmon-44",
+          "name": "Sushi Sandwich (Salmon)",
+          "description": "Salmon, cream cheese, spicy crab and avocado sandwiched between crispy seaweed, topped with wasabi chili and eel sauce",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "sushi-sandwich-tuna-45",
+          "name": "Sushi Sandwich (Tuna)",
+          "description": "Tuna, cream cheese, spicy crab and avocado sandwiched between crispy seaweed, topped with wasabi chili and eel sauce",
+          "price": 15.1,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "sweetheart-roll-46",
+          "name": "Sweetheart Roll",
+          "description": "Spicy salmon, avocado, seaweed, and mango rolled in soy paper, topped with wasabi mayo",
+          "price": 14.55,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "sycamore-roll-47",
+          "name": "Sycamore Roll",
+          "description": "Fried white fish with mango, cream cheese, crab meat and cilantro rolled in soy paper topped with wasabi mayo, eel sauce, and pumpkin seeds",
+          "price": 17.65,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "temp-chicken-roll-48",
+          "name": "Temp Chicken Roll",
+          "description": "Tempura chicken with lettuce, avocado and tobiko; topped with eel sauce",
+          "price": 9.35,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "tuna-lover-roll-49",
+          "name": "Tuna Lover Roll",
+          "description": "Spicy tuna and avocado roll, topped with fresh tuna and avocado",
+          "price": 17.7,
+          "dietary": [],
+          "advisory": [
+            "raw seafood"
+          ]
+        },
+        {
+          "id": "valentine-s-roll-50",
+          "name": "Valentine's Roll",
+          "description": "Yellow Tail and Mango Rolled, Topped With Fresh Tuna Radish Sprout Fish Egg, Served Sweet Chili Sauce",
+          "price": 17,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "volcano-roll-51",
+          "name": "Volcano Roll",
+          "description": "Fried oyster baked with spicy mayo sauce",
+          "price": 13.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "white-squirrel-roll-52",
+          "name": "White Squirrel Roll",
+          "description": "Fried crab sticks and mango inside, topped white tuna avocado served wasabi Mayo sauce",
+          "price": 17.15,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "hibachi-dinner-entree",
+      "name": "Hibachi Dinner Entree",
+      "description": "All entrees served with white/brown/fried rice",
+      "items": [
+        {
+          "id": "d-hibachi-chicken-0",
+          "name": "Hibachi Chicken",
+          "description": "",
+          "price": 19.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-hibachi-salmon-1",
+          "name": "Hibachi Salmon",
+          "description": "",
+          "price": 26,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-hibachi-scallop-2",
+          "name": "Hibachi Scallop",
+          "description": "",
+          "price": 27,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-hibachi-shrimp-3",
+          "name": "Hibachi Shrimp",
+          "description": "",
+          "price": 23,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-hibachi-steak-4",
+          "name": "Hibachi Steak",
+          "description": "",
+          "price": 27,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-hibachi-twin-lobster-5",
+          "name": "Hibachi Twin Lobster",
+          "description": "",
+          "price": 36,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-vegetable-delight-6",
+          "name": "Vegetable Delight",
+          "description": "",
+          "price": 18.75,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "hibachi-dinner-combo",
+      "name": "Hibachi Dinner Combo",
+      "description": "All entrees served with white/brown/fried rice",
+      "items": [
+        {
+          "id": "d-chicken-lobster-0",
+          "name": "Chicken & Lobster",
+          "description": "",
+          "price": 31,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-chicken-scallop-1",
+          "name": "Chicken & Scallop",
+          "description": "",
+          "price": 25,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-chicken-shrimp-2",
+          "name": "Chicken & Shrimp",
+          "description": "",
+          "price": 23,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-chicken-steak-3",
+          "name": "Chicken & Steak",
+          "description": "",
+          "price": 25,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-scallop-lobster-4",
+          "name": "Scallop & Lobster",
+          "description": "",
+          "price": 32,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-shrimp-lobster-5",
+          "name": "Shrimp & Lobster",
+          "description": "",
+          "price": 31,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-shrimp-salmon-6",
+          "name": "Shrimp & Salmon",
+          "description": "",
+          "price": 26,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-shrimp-scallop-7",
+          "name": "Shrimp & Scallop",
+          "description": "",
+          "price": 26,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-steak-lobster-8",
+          "name": "Steak & Lobster",
+          "description": "",
+          "price": 32,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-steak-scallop-9",
+          "name": "Steak & Scallop",
+          "description": "",
+          "price": 27,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-salmon-steak-10",
+          "name": "Salmon & Steak",
+          "description": "",
+          "price": 29,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-salmon-scallop-11",
+          "name": "Salmon & Scallop",
+          "description": "",
+          "price": 28,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-steak-shrimp-12",
+          "name": "Steak & Shrimp",
+          "description": "",
+          "price": 27,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "hibachi-side-order",
+      "name": "Hibachi Side Order",
+      "description": "",
+      "items": [
+        {
+          "id": "side-hibachi-chicken-0",
+          "name": "Chicken",
+          "description": "",
+          "price": 13,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "side-hibachi-salmon-1",
+          "name": "Salmon",
+          "description": "",
+          "price": 15.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "side-hibachi-scallop-2",
+          "name": "Scallop",
+          "description": "",
+          "price": 15.5,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "side-hibachi-shrimp-3",
+          "name": "Shrimp",
+          "description": "",
+          "price": 15,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "side-hibachi-steak-4",
+          "name": "Steak",
+          "description": "",
+          "price": 16,
+          "dietary": [],
+          "advisory": []
+        }
+      ]
+    },
+    {
+      "id": "thai-specials",
+      "name": "Thai Specials",
+      "description": "",
+      "items": [
+        {
+          "id": "d-green-curry-0",
+          "name": "Green Curry",
+          "description": "Served with white or brown rice, choice of tofu or chicken as protein. Optionally add $4.00 for shrimp or beef",
+          "price": 18.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-masamen-curry-1",
+          "name": "Masamen Curry",
+          "description": "Served with white or brown rice, choice of tofu or chicken as protein. Optionally add $4.00 for shrimp or beef",
+          "price": 18.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-panang-curry-2",
+          "name": "Panang Curry",
+          "description": "Served with white or brown rice, choice of tofu or chicken as protein. Optionally add $4.00 for shrimp or beef",
+          "price": 18.7,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "d-red-curry-3",
+          "name": "Red Curry",
+          "description": "Served with white or brown rice, choice of tofu or chicken as protein. Optionally add $4.00 for shrimp or beef",
+          "price": 18.7,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "pad-thai-noodle-4",
+          "name": "Pad Thai Noodle",
+          "description": "Optinally add $2.00 for chicken, $3.00 for beef or shrimp",
+          "price": 15.6,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
+        },
+        {
+          "id": "thai-basil-chicken-5",
+          "name": "Thai Basil Chicken",
+          "description": "Wok fried protein with onion, pepper, scallions, red chili in chef's thai basil sauce, served with white or brown rice",
+          "price": 21.85,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "thai-basil-shrimp-6",
+          "name": "Thai Basil Shrimp",
+          "description": "Wok fried protein with onion, pepper, scallions, red chili in chef's thai basil sauce, served with white or brown rice",
+          "price": 22,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "thai-basil-steak-7",
+          "name": "Thai Basil Steak",
+          "description": "Wok fried protein with onion, pepper, scallions, red chili in chef's thai basil sauce, served with white or brown rice",
+          "price": 26,
+          "dietary": [],
+          "advisory": []
+        },
+        {
+          "id": "thai-basil-vegetable-8",
+          "name": "Thai Basil Vegetable",
+          "description": "Wok fried protein with onion, pepper, scallions, red chili in chef's thai basil sauce, served with white or brown rice",
+          "price": 18,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
         }
       ]
     },
     {
       "id": "desserts",
       "name": "Desserts",
+      "description": "",
       "items": [
         {
-          "id": "chocolate-cake",
-          "name": "Warm Chocolate Fondant",
-          "description": "Rich dark chocolate lava cake with vanilla bean ice cream and salted caramel",
-          "price": 10.99,
-          "dietary": ["vegetarian"],
-          "spicy": false
+          "id": "banana-tempura-0",
+          "name": "Banana Tempura",
+          "description": "",
+          "price": 5.72,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
         },
         {
-          "id": "cheesecake",
-          "name": "New York Cheesecake",
-          "description": "Classic baked cheesecake with seasonal berry compote and fresh cream",
-          "price": 9.99,
-          "dietary": ["vegetarian"],
-          "spicy": false
+          "id": "fried-cheese-cake-1",
+          "name": "Fried Cheese Cake",
+          "description": "",
+          "price": 7.8,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
         },
         {
-          "id": "tiramisu",
-          "name": "Tiramisu",
-          "description": "Traditional Italian dessert with espresso-soaked ladyfingers and mascarpone",
-          "price": 9.99,
-          "dietary": ["vegetarian"],
-          "spicy": false
-        }
-      ]
-    },
-    {
-      "id": "drinks",
-      "name": "Drinks",
-      "items": [
-        {
-          "id": "lemonade",
-          "name": "House Lemonade",
-          "description": "Fresh-squeezed lemonade with mint and a hint of lavender",
-          "price": 4.99,
-          "dietary": ["vegetarian", "vegan", "gluten-free"],
-          "spicy": false
-        },
-        {
-          "id": "iced-tea",
-          "name": "Peach Iced Tea",
-          "description": "House-brewed black tea with fresh peach syrup and lemon",
-          "price": 4.99,
-          "dietary": ["vegetarian", "vegan", "gluten-free"],
-          "spicy": false
-        },
-        {
-          "id": "sparkling-water",
-          "name": "Sparkling Water",
-          "description": "Chilled sparkling mineral water",
-          "price": 3.99,
-          "dietary": ["vegetarian", "vegan", "gluten-free"],
-          "spicy": false
+          "id": "tuxedo-choc-cake-2",
+          "name": "Tuxedo Chocolate Cake",
+          "description": "",
+          "price": 8.27,
+          "dietary": [
+            "vegetarian"
+          ],
+          "advisory": []
         }
       ]
     }

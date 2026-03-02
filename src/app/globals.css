@@ -1,35 +1,43 @@
 @import "tailwindcss";
 
 /* =============================================
-   BRAND COLORS — Update these to match your brand
+   BRAND COLORS — Update these to change the site palette
    ============================================= */
 :root {
-  --color-brand: #92400e;        /* Main brand/accent color (amber-brown) */
-  --color-brand-dark: #78350f;   /* Darker variant for hover states */
-  --color-brand-light: #fef3c7;  /* Light tint for backgrounds */
-  --color-warm-white: #fdf8f0;   /* Warm off-white page background */
-  --color-warm-gray: #78716c;    /* Muted text color */
-  --color-border: #e7e5e4;       /* Subtle border color */
+  --color-ink: #1F1F1F;          /* Primary text */
+  --color-ink-muted: #2C2C19;    /* Secondary / muted text */
+  --color-accent: #BF9432;       /* Link hover, active highlights */
+  --color-surface: #E3CFA0;      /* Header & footer background */
+  --color-btn: #A61C1C;          /* Button background */
+  --color-btn-hover: #7F1414;    /* Button hover background */
 }
 
 @theme inline {
-  --color-brand: var(--color-brand);
-  --color-brand-dark: var(--color-brand-dark);
-  --color-brand-light: var(--color-brand-light);
-  --color-warm-white: var(--color-warm-white);
-  --color-warm-gray: var(--color-warm-gray);
-  --color-border: var(--color-border);
+  --color-ink: var(--color-ink);
+  --color-ink-muted: var(--color-ink-muted);
+  --color-accent: var(--color-accent);
+  --color-surface: var(--color-surface);
+  --color-btn: var(--color-btn);
+  --color-btn-hover: var(--color-btn-hover);
   --font-sans: var(--font-geist-sans);
 }
 
 body {
-  background-color: var(--color-warm-white);
-  color: #1c1917;
+  color: var(--color-ink);
 }
 
 /* Smooth scroll for anchor links */
 html {
   scroll-behavior: smooth;
+}
+
+/* Hide scrollbar while keeping scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
 /* Remove default list styles in nav */
